@@ -18,7 +18,7 @@ class Task {
    * Mark task as complete
    */
   complete() {
-    console.log(`Completing task: ${task.name}`);
+    console.log(`Completing task: ${this.name}`);
     this.completed = true;
   }
   /**
